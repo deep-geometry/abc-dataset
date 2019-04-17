@@ -1,7 +1,7 @@
 # Setup
 title: ABC Dataset
 tagline: A Big CAD Model Dataset For Geometric Deep Learning
-baseurl:      ""
+baseurl:      "/abc-dataset"
 paginate: 1
 locale: "en"
 
