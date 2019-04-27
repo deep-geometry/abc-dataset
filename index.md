@@ -39,7 +39,7 @@ We are grateful to Onshape for providing the CAD models and support. This work w
 
 
 <!--<div style="display: flex; justify-content: center; margin-bottom:20px;">-->
-<a href="https://arxiv.org/pdf/1812.06216.pdf"><img src="assets/images/paper.png" alt="Paper" class="paper"/></a>
+<a href="https://arxiv.org/pdf/1812.06216.pdf" target="_blank"><img src="assets/images/paper.png" alt="Paper" class="paper"/></a>
 <!--<img src="assets/images/supp.png" alt="Supplementary Material" style="border:1px solid #bbbbbb; border-radius: 6px; margin-left: auto; margin-right: auto;"/>-->
 <!--</div>-->
 
