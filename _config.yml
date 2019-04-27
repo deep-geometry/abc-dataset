@@ -1,15 +1,5 @@
-# Setup
 title: ABC Dataset
-tagline: A Big CAD Model Dataset For Geometric Deep Learning
-baseurl:      "/abc-dataset"
-paginate: 1
-locale: "en"
-
-# About/contact
-author:
-  name:       Sebastian Koch
-  url:        https://deep-geometry.github.io/abc-dataset/
-
-# Gems
-gems:
-  - jekyll-paginate
+description: A Big CAD Model Dataset For Geometric Deep Learning
+show_downloads: true
+google_analytics: UA-138678802-1
+theme: jekyll-theme-leap-day

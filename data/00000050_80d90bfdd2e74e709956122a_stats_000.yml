@@ -1,0 +1,34 @@
+'#edges': 106
+'#faces': 44694
+'#norms': 24569
+'#parts': 3
+'#points': 71
+'#sharp': 77
+'#surfs': 43
+'#verts': 22335
+bbox: [-32.359782752921824, -3.1752786529218313, -32.35965769406899, 32.359782743782134,
+  0.0002786529218315856, 32.35965769406899, 64.71956549670395, 3.175557305843663,
+  64.71931538813799]
+curves: [Circle, Circle, Circle, BSpline, Circle, BSpline, Circle, BSpline, Circle,
+  Circle, Line, Circle, Line, Circle, Circle, Circle, Circle, Line, Circle, Circle,
+  Line, Circle, Circle, Circle, BSpline, Circle, BSpline, Circle, Circle, Line, Circle,
+  Line, Line, Line, Line, Line, Line, Line, Circle, Circle, Line, Line, Line, Line,
+  Circle, Line, Circle, Line, Line, Line, Circle, Circle, Line, Line, Line, Line,
+  Circle, Line, Circle, Line, Line, Line, Circle, Circle, Line, Line, Line, Line,
+  Circle, Line, Circle, Line, Line, Line, Circle, Circle, Circle, BSpline, Circle,
+  Line, Line, Line, Line, Line, Line, Line, Line, Circle, Circle, Circle, BSpline,
+  Circle, Circle, Circle, Line, Circle, Line, Circle, Circle, Line, Circle, Line,
+  Line, Line, Line, Line]
+diag: 91.58218225503323
+gaus_curv: 0.0
+max_length: 0.0009158218225503324
+mean_curv: -13.683022100837881
+model: /beegfs/work/panozzo/onshape/datasets/abc/0000/step/00000050/00000050_80d90bfdd2e74e709956122a_step_000.step
+surface: 2.4591801514482245e-11
+surfs: [Plane, Cylinder, Cylinder, Cylinder, Plane, Cylinder, Plane, Cylinder, Cylinder,
+  Cylinder, Plane, Cylinder, Plane, Cylinder, Plane, Cylinder, Plane, Plane, Cylinder,
+  Plane, Cylinder, Plane, Cylinder, Plane, Cylinder, Plane, Cylinder, Plane, Cylinder,
+  Plane, Cylinder, Cylinder, Plane, Plane, Cylinder, Cylinder, Cylinder, Plane, Plane,
+  Plane, Cylinder, Plane, Cylinder]
+tolerance: 9.158218225503322e-06
+volume: 2.4591875344953773e-11
