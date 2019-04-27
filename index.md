@@ -74,8 +74,7 @@ The copyright of the CAD models is owned by their creators. For licensing detail
 
 By downloading the dataset you agree to the following terms:
 
-* You will use the data exclusively under the Terms of Use of Onshape (see [License](#license)).
-* The authors give no warranties regarding the data.
+* The authors give no warranties regarding the dataset.
 
 
 
