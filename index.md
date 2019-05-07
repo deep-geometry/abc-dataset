@@ -103,17 +103,21 @@ Each model in the dataset consists of the following file formats: _Note: Not all
 
 ### Chunks
 The dataset is split into compressed chunks of 10000 models according to the file formats. The following files list the urls for all file formats as well as for the single file formats for all chunks:&emsp;
-[all](data/all.txt){:target="_blank"}&emsp;
-[meta](data/meta.txt){:target="_blank"}&emsp;
-[para](data/para.txt){:target="_blank"}&emsp;
-[step](data/step.txt){:target="_blank"}&emsp;
-[stl2](data/stl2.txt){:target="_blank"}
+[all_v00](data/all_v00.txt){:target="_blank"}&emsp;
+[meta_v00](data/meta_v00.txt){:target="_blank"}&emsp;
+[para_v00](data/para_v00.txt){:target="_blank"}&emsp;
+[step_v00](data/step_v00.txt){:target="_blank"}&emsp;
+[stl2_v00](data/stl2_v00.txt){:target="_blank"}
 
 
-The chunks can then be downloaded for example with <span class="cin">wget</span> or <span class="cin">curl</span>. The following command downloads all meta file format chunks with 8 requests (maximum) in parallel into the folder _meta_:
+The chunks can then be downloaded for example with <span class="cin">wget</span> or <span class="cin">curl</span>. The following command downloads all meta file format chunks with 8 requests (maximum) in parallel into the folder _meta_ (which has to be created before):
 
 ```bash
-cat meta.txt | xargs -n 1 -P 8 wget {} -P meta --no-check-certificate
+cat meta_v00.txt | xargs -n 2 -P 8 sh -c 'wget --no-check-certificate $0 -O meta/$1'
+```
+or alternatively with <span class="cin">curl</span>:
+```bash
+cat meta_v00.txt | xargs -n 2 -P 8 sh -c 'curl --insecure -o meta/$1 $0'
 ```
 
 
