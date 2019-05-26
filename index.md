@@ -5,7 +5,7 @@ layout: default
 
 # News
 
-> **(2019, April 24th)** Initial release including 1 million CAD models for step, parasolid, stl and meta formats.
+> **(2019, April 24th)** Initial release including 1 million CAD models for step, parasolid, stl and meta formats.<br>
 > **(2019, May 25th)** New file formats are added for ~750k CAD models. The new file formats are obj, features and statistics. 
 
 
