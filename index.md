@@ -6,7 +6,7 @@ layout: default
 # News
 
 > **(2019, April 24th)** Initial release including 1 million CAD models for step, parasolid, stl and meta formats.
-
+> **(2019, May 25th)** New file formats are added for ~750k CAD models. The new file formats are obj, features and statistics. 
 
 
 
@@ -107,7 +107,10 @@ The dataset is split into compressed chunks of 10000 models according to the fil
 [meta_v00](data/meta_v00.txt){:target="_blank"}&emsp;
 [para_v00](data/para_v00.txt){:target="_blank"}&emsp;
 [step_v00](data/step_v00.txt){:target="_blank"}&emsp;
-[stl2_v00](data/stl2_v00.txt){:target="_blank"}
+[stl2_v00](data/stl2_v00.txt){:target="_blank"}&emsp;
+[obj_v00](data/obj_v00.txt){:target="_blank"}&emsp;
+[feat_v00](data/feat_v00.txt){:target="_blank"}&emsp;
+[stat_v00](data/stat_v00.txt){:target="_blank"}
 
 
 The chunks can then be downloaded for example with <span class="cin">wget</span> or <span class="cin">curl</span>. The following command downloads all meta file format chunks with 8 requests (maximum) in parallel into the folder _meta_ (which has to be created before):
