@@ -56,7 +56,7 @@ https://archive.nyu.edu/rest/bitstreams/88847/retrieve abc_0054_stl2_v00.7z
 https://archive.nyu.edu/rest/bitstreams/88851/retrieve abc_0055_stl2_v00.7z
 https://archive.nyu.edu/rest/bitstreams/88855/retrieve abc_0056_stl2_v00.7z
 https://archive.nyu.edu/rest/bitstreams/88859/retrieve abc_0057_stl2_v00.7z
-https://archive.nyu.edu/rest/bitstreams/88863/retrieve abc_0058_stl2_v00.7z
+https://archive.nyu.edu/rest/bitstreams/88870/retrieve abc_0058_stl2_v00.7z
 https://archive.nyu.edu/rest/bitstreams/88874/retrieve abc_0059_stl2_v00.7z
 https://archive.nyu.edu/rest/bitstreams/88878/retrieve abc_0060_stl2_v00.7z
 https://archive.nyu.edu/rest/bitstreams/88882/retrieve abc_0061_stl2_v00.7z
