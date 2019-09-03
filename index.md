@@ -7,6 +7,7 @@ layout: default
 
 > **(2019, April 24th)** Initial release including 1 million CAD models for step, parasolid, stl and meta formats.<br>
 > **(2019, May 25th)** New file formats are added for ~750k CAD models. The new file formats are obj, features and statistics. 
+> **(2019, August 29th)** Normal Estimation Benchmark download links added. 
 
 
 
@@ -123,6 +124,15 @@ or alternatively with <span class="cin">curl</span>:
 cat meta_v00.txt | xargs -n 2 -P 8 sh -c 'curl --insecure -o meta/$1 $0'
 ```
 
+To download only single chunks, the following commands can be used:
+```bash
+sed 'NUMq;d' meta_v00.txt | xargs -n 2 sh -c 'wget --no-check-certificate $0 -O meta/$1'
+```
+This downloads the NUMth chunk of the meta type to the folder meta. Alternatively with <span class="cin">curl</span> the command looks like:
+```bash
+sed 'NUMq;d' meta_v00.txt | xargs -n 2 sh -c 'curl --insecure -o meta/$1 $0'
+```
+
 
 ### Checksums/Sizes
 We provide md5 checksums and filesizes (in bytes) for all compressed chunks in the following yaml files to check for archive integrity: &emsp;
@@ -141,9 +151,12 @@ Based on a subset of the CAD models from the ABC dataset, we provide the followi
 
 ### Normal Estimation
 
-The surface normal estimation benchmark consists of meshed CAD models with fixed amounts of vertices (512, 1024 and 2048) and ground truth vertex normals derived from the parametric boundary representation. There is one benchmark for patches (parts) of CAD models and one for full CAD models.
+The surface normal estimation benchmark consists of meshed CAD models with fixed amounts of vertices (512, 1024 and 2048) and ground truth vertex normals derived from the parametric boundary representation.
+There is one benchmark for patches (parts) of CAD models and one for full CAD models.
+The benchmarks come in different sizes (10k, 50k and 100k) and are split into training and testing data.
+To obtain the 100k benchmark, you need to download the 50k and 100k archives.
 
-_Coming soon..._
+**The archives for the benchmark can be downloaded from [here](https://archive.nyu.edu/handle/2451/59958){:target="_blank"}.**
 
 
 * * *
