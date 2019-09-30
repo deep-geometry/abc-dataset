@@ -7,7 +7,7 @@ layout: default
 
 > **(2019, April 24th)** Initial release including 1 million CAD models for step, parasolid, stl and meta formats.<br>
 > **(2019, May 25th)** New file formats are added for ~750k CAD models. The new file formats are obj, features and statistics. 
-> **(2019, August 29th)** Normal Estimation Benchmark download links added. 
+> **(2019, August 29th)** Normal Estimation Benchmark download links added. <br>
 > **(2019, September 29th)** FeatureScript file format added. 
 
 
